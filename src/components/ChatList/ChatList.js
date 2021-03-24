@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { io } from "socket.io-client";
 import styled from "styled-components";
 import { API_URL } from "../../App";
-import { userType } from "../../types";
 
 export const Chat = styled.div`
   background-color: white;
