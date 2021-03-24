@@ -42,7 +42,7 @@ export const ChatInput = styled.input`
 export const ChatBtn = styled.button`
   width: 20%;
   height: 100%;
-  background-color: darkred;
+  background-color: purple;
   color: white;
   font-weight: bold;
   border: none;
