@@ -21,9 +21,8 @@ export const MainWrapper = styled.div`
 `;
 
 function App() {
-  const { signedIn, userName } = useSelector((state) => ({
+  const { signedIn } = useSelector((state) => ({
     signedIn: state.user.signedIn,
-    userName: state.user.userName,
   }));
   const dispatch = useDispatch();
 
